@@ -1,7 +1,7 @@
 # Visual-Representation-of-Sorting-Algorithms
+Full Explanation is in the ExplanationOfTheCode file.
 
-
-Explanation:
+Breif Explanation:
 
 This is the project I did for my A Level. It is an application where you can choose a picture and the sorting algorithm that you want to sort the picture with. The pixels in the picture you selected will then be randomized, and displayed on the screen. Press start and the chosen sorting algorithm will sort the pixels into their original position. Different algorithms do it differently. Bubble sorts data by going through the data comparing adjacent data and swapping. Selection sort which repeatedly selects the smallest element from the unsorted part of the list and swaps it with the first element in the unsorted part of the list. 
   
