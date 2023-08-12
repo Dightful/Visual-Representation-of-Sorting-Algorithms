@@ -26,22 +26,7 @@ This is the project i did for my A Level. It is application where you can choose
   Any picture above size 1080x1920 does take a long time to sort due to there being over 2million items!
 
 
-  How to use:
-                
-  Open the file called MainFile, load into an ide such as Visual Studio Code and press run
-
-
-Modules Used:
-
-  (you'll need to download some of these to run the program)
-  - datetime
-  - re
-  - sys
-  - PyQt5
-  - sqlite3
-  - PIL
-  - ast
-  - random
+ 
 
  
 
