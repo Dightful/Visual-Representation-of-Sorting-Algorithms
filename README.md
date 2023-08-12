@@ -2,6 +2,7 @@
 
 
 Explanation:
+
 This is the project i did for my A Level. It is application where you can choose a picture and the sorting algorithm that you want to sort the picture with. The pixels in the picture you selected will then be randomized, all displayed on the screen. Press start and the chosen sorting algorithm will sort the pixels into their original position. Different algorithms do it differently, bubble by going through the pixels comparing them. Or selection sort which repeatedly selects the smallest element from the unsorted part of the list and swaps it with the first element in the unsorted part of the list. 
   
   The point of the program is to show how different sorting algorithms speeds are for different sizes of data (which in this case is a different resolutions of image). For example bubble is effective for low resolution images and really ineffective for high resolution images. Whereas a radix sort is less effective at smaller sizes (although still fast ) - but is extremely effective at larger images.
@@ -28,7 +29,19 @@ How to use:
   Open the file called MainFile, load into an ide such as Visual Studio Code and press run
 
 Modules Used:
-  (you'll need to download these to run the program)
+  (you'll need to download some of these to run the program)
+  - datetime
+  - re
+  - sys
+  - PyQt5
+  - sqlite3
+  - PIL
+  - ast
+  - random
+
+ 
+
+  
 
 
   
