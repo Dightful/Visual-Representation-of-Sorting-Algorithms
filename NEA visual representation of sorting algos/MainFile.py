@@ -12,12 +12,7 @@ import SecondaryFile
 import sqlite3
 
 
-#D:\WpSystem\S-1-5-21-2590028653-3541449427-884558286-1010\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\Scripts\pyuic5.exe -x "D:\0Good\SCHOLL\compu\y13 oproject\infomation page (1).ui" -o "D:\0Good\SCHOLL\compu\y13 oproject\part 3\infomation_page_graphical.py"
-#C:\Python\Scripts\pyuic5.exe -x "C:\Users\dight\Documents\coding\school\y13 oproject\infomation page.ui" -o "C:\Users\dight\Documents\coding\school\y13 oproject\part 2\infomation_page_graphical.py"
-
-
-
-file_location = "D:\\0Good\\coding\\python2\\00mine stuff\\0projects\\NEA visual representation of sorting algos\\white.png"
+file_location = "*your file loaction*\\NEA visual representation of sorting algos\\white.png"
 class SecondWindow(QtWidgets.QMainWindow, sorting_panel_graphical.Ui_MainWindow):              # +
     def __init__(self):
         super(SecondWindow, self).__init__()
@@ -71,15 +66,15 @@ class MainWindow(QtWidgets.QMainWindow, control_panel_graphical2.Ui_MainWindow):
         self.setupUi(self) 
         
         #adding items to combo box
-        self.comboBox.addItem("Insertion") #DONE 
-        self.comboBox.addItem("Shell") #DONE     #
-        self.comboBox.addItem("Bubble") #DONE    #   
-        self.comboBox.addItem("Cocktail") #DONE  #
-        self.comboBox.addItem("Quick") #DONE     #
-        self.comboBox.addItem("Selection") #DONE #
-        self.comboBox.addItem("Radix") #DONE     #
-        self.comboBox.addItem("Bucket") # DONE   
-        self.comboBox.addItem("Heap") # DONE     #
+        self.comboBox.addItem("Insertion") 
+        self.comboBox.addItem("Shell") 
+        self.comboBox.addItem("Bubble") 
+        self.comboBox.addItem("Cocktail") 
+        self.comboBox.addItem("Quick")
+        self.comboBox.addItem("Selection") 
+        self.comboBox.addItem("Radix") 
+        self.comboBox.addItem("Bucket")
+        self.comboBox.addItem("Heap") 
         self.image_chosen = False
         self.randomized = False
         self.randomizeddone = False
@@ -105,7 +100,7 @@ class MainWindow(QtWidgets.QMainWindow, control_panel_graphical2.Ui_MainWindow):
         return results4
 
     def display_times(self):
-        connection3 = sqlite3.connect('D:\\0Good\\coding\\python2\\00mine stuff\\0projects\\NEA visual representation of sorting algos\\database_sorting_algos2.db')
+        connection3 = sqlite3.connect('*your file loaction*\\NEA visual representation of sorting algos\\database_sorting_algos2.db')
         cur = connection3.cursor()
         if self.image_chosen == False:
             self.textEdit_3.setText("N/A")
@@ -182,7 +177,7 @@ class MainWindow(QtWidgets.QMainWindow, control_panel_graphical2.Ui_MainWindow):
     def upload_database(self):
         #add data to database
         if self.randomizeddone == True:
-            connection2 = sqlite3.connect('D:\\0Good\\coding\\python2\\00mine stuff\\0projects\\NEA visual representation of sorting algos\\database_sorting_algos2.db')
+            connection2 = sqlite3.connect('*your file loaction*\\NEA visual representation of sorting algos\\database_sorting_algos2.db')
             cur = connection2.cursor()
             
             sqlstr2 = ('SELECT RunID FROM Runs2')
@@ -359,7 +354,7 @@ class SecondWindow_M(QtWidgets.QMainWindow, select_random_graphical.Ui_MainWindo
         self.setupUi(self)
         widget.move(0,0)
         self.count = 0
-        self.Wpath = r"D:\\0Good\\coding\\python2\\00mine stuff\\0projects\NEA visual representation of sorting algos\\"
+        self.Wpath = r"*your file loaction*\NEA visual representation of sorting algos\\"
         self.array_of_pics = ["Porsche 911 GT3 manual .jpg","cadilac.png","Mazda RX-7.jpg","Honda Civic Type-R EK9.png","mustang.png","audiR8.jpg","Subaru Impreza WRX STI 1st gen.png","32x32.png"]
         self.pictures.setPixmap(QtGui.QPixmap(self.Wpath + self.array_of_pics[-1]))
         self.reroll_button.clicked.connect(self.re_roll_image)
@@ -506,7 +501,7 @@ class DataBWindow(QtWidgets.QMainWindow, sql_graphical.Ui_MainWindow):
         sys.exit()
 
     def loading(self):
-        connection = sqlite3.connect('D:\\0Good\\coding\\python2\\00mine stuff\\0projects\\NEA visual representation of sorting algos\\database_sorting_algos2.db')
+        connection = sqlite3.connect('*your file loaction*\\NEA visual representation of sorting algos\\database_sorting_algos2.db')
         cur = connection.cursor()
         sqlstr = 'SELECT * FROM Runs2'
         results = cur.execute(sqlstr)
