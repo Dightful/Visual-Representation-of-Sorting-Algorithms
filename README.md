@@ -25,9 +25,11 @@ This is the project i did for my A Level. It is application where you can choose
   Note:
   Any picture above size 1080x1920 does take a long time to sort due to there being over 2million items!
 
-How to use:
 
+  How to use:
+                
   Open the file called MainFile, load into an ide such as Visual Studio Code and press run
+
 
 Modules Used:
 
