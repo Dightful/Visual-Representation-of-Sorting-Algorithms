@@ -24,7 +24,7 @@ This is the project I did for my A Level. It is an application where you can cho
   
   Note:
   Any picture above size 1080x1920 does take a long time to sort due to there being over 2 million pixels!
-
+  I Do not own another of the pictures used in this application
 
  
 
