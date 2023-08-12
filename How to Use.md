@@ -1,10 +1,14 @@
 Open the file called MainFile, load into an ide such as Visual Studio Code. 
 
 Next change all the file locations to the your file location where you have saved the program to; all the line numbers where this needs to be done are:
-- 18
-- 
+- 15
+- 103
+- 185
+- 362
+- 509
 
-For the file path names 
+Note:
+For the file path names use \\ instead of \ 
 
 Modules Used:
 
